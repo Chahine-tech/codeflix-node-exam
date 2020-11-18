@@ -1,4 +1,3 @@
-
 const readline = require('readline')
 const fs = require('fs');    
 
@@ -27,4 +26,3 @@ const displayFile = (filename) => {
 }
 displayFile(process.argv[2])
 }
-
