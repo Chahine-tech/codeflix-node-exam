@@ -27,7 +27,7 @@ const displayFile = (filename) => {
 displayFile(process.argv[2])
 }
 else if (process.argv[2] === "-e") {
-    let i = 0;
+    
     fs.readFile(process.argv[3], 'utf8', function(err, data) {
       if (err) throw err;
       const lines = data.split(/\r?\n/);
